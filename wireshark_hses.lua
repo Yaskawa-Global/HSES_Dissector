@@ -203,3 +203,4 @@ end
 
 udp_table = DissectorTable.get("udp.port")
 udp_table:add(10040,hses_proto)
+udp_table:add(10041,hses_proto)

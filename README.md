@@ -14,4 +14,4 @@ Inside wireshark application, use filter "hses".
 **Known limitations**:
 
 1. The data payload for the "plural data" commands will not be properly dissected. It will however disect the header portion.
-1. The file read/write commands will not be properly dissected.
+1. The file read/write commands will not be properly dissected. But, the header section will display.
